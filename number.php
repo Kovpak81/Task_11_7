@@ -9,13 +9,3 @@ $str = "1";
 $string = "php";
 $null = null;
 ?>
-
-
-
-<?php
-$name = 'Александр';
-$surname = 'Иванов';
-$city = 'Москва';
-$age = 28;
-?>
-
