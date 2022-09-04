@@ -41,15 +41,15 @@ include 'number.php';
                 <td><?php var_dump($a xor $b2);?></td>
             </tr>
             <tr>
-                <td>0</td>
                 <td>1</td>
+                <td>0</td>
                 <td><?php var_dump(!$a2);?></td>
                 <td><?php var_dump($a2||$b);?></td>
                 <td><?php var_dump($a2&&$b);?></td>
                 <td><?php var_dump($a2 xor $b);?></td>
             </tr>
             <tr>
-                <td>0</td>
+                <td>1</td>
                 <td>1</td>
                 <td><?php var_dump(!$a2);?></td>
                 <td><?php var_dump($a2||$b2);?></td>
