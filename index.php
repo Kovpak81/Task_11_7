@@ -27,7 +27,7 @@ include 'number.php';
             <tr>
                 <td>0</td>
                 <td>0</td>
-                <td><?php var_dump(!$a);?></td>
+                <td><?php echo boolval(!$a)?'true':'false';?></td>
                 <td><?php var_dump($a||$b);?></td>
                 <td><?php var_dump($a&&$b);?></td>
                 <td><?php var_dump($a xor $b);?></td>
